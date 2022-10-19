@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+ -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+html {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-image: url('/backgroung-image.jpg');
+}
+
+
+button:hover {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color:rgb(182, 182, 108);
+  transition: 0.5s;
+
+}
+button{
+  border-radius: 10px;
+  padding: 10 px;
+  background-color: beige;
+}
+
+
+
+ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+li {
+  
+  margin: 10px;
+  padding: 15px;
+  background-image: url('/Notes\ Wallpaper.jpg');
+  background-size: 100% 100%;
+    align-items: stretch;
+}
+.application {
+  width:80%;
+  margin: auto;
+}
+
+.SearchDiv {
+  width:50%;
+  margin: auto;
+  padding: 10px;
+  font-size: 1em;
+
+}
+.input-group {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  
+}
+
+.newNote {
+  width:80%;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 5em;
+}
+.content {
+  font-size: 1.5em;
+}
+.checkbox {
+  text-align: right;
+ 
+  width: unset;
+}
+input.bigCheck {
+  width:20px;
+  height: 20px;
+
+  
+}
+.cont {
+    padding: 5px;
+}
+.btn-group{
+  text-align: center;
+}
+
+.NoteCreator{
+  background-attachment:unset;
+  background-image: url('/notescreater.jpg');
+  background-size: 150% 150%;
+}
+h1,h3 {
+  text-align: center;
+  color: whitesmoke;
+}
+.search{
+  color: white;
+}
+h2{
+  color: black;
+  text-align: center;
+}
